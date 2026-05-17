@@ -106,7 +106,7 @@ export function QuestionCard({
         <CardTitle className="text-lg leading-snug md:text-xl">
           {question.question}
         </CardTitle>
-        <CardDescription>
+        <CardDescription className="hidden md:block">
           Горячие клавиши: 1/2/3/4 для ответа, Enter для перехода дальше.
         </CardDescription>
       </CardHeader>
@@ -147,13 +147,8 @@ export function QuestionCard({
                   disabled={shouldLock}
                   aria-label={`Ответ ${index + 1}`}
                 />
-                <span className="flex flex-col gap-1">
-                  <span className="font-medium">
-                    {index + 1}. {option.label}
-                  </span>
-                  <span className="text-sm leading-relaxed text-muted-foreground">
-                    {option.text}
-                  </span>
+                <span className="pt-0.5 text-base font-medium leading-relaxed text-card-foreground">
+                  {option.text}
                 </span>
               </label>
             )
@@ -188,7 +183,7 @@ export function QuestionCard({
 
         {selectedOption && !revealAnswer ? (
           <p className="text-sm text-muted-foreground">
-            Выбран ответ: {selectedOption.label}
+            Ответ выбран
           </p>
         ) : null}
       </CardContent>
