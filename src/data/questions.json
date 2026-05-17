@@ -1,0 +1,7019 @@
+{
+  "schemaVersion": "1.0.0",
+  "source": {
+    "fileName": "тест для 2 курса 2025-26.docx",
+    "documentTitle": "Тесттик тапшырмалар: Кыргыз тили жана адабияты",
+    "audience": "Кыргыз Эл аралык университетинин Политехникалык колледжинин бардык адистиктеринин студенттери үчүн",
+    "academicYear": "2025-2026",
+    "language": "ky"
+  },
+  "integration": {
+    "recommendedUsage": "Render variants as separate tests; each question has stable id, option ids а/б/в/г, and correctOption for validation.",
+    "optionIdAlphabet": [
+      "а",
+      "б",
+      "в",
+      "г"
+    ],
+    "fields": {
+      "variants[].questions[].id": "Stable frontend/backend question id",
+      "variants[].questions[].question": "Question text",
+      "variants[].questions[].options[]": "Answer options",
+      "variants[].questions[].correctOption": "Correct option id: а, б, в, г",
+      "variants[].questions[].correctAnswer": "Correct answer text for admin/review mode"
+    }
+  },
+  "stats": {
+    "variantCount": 10,
+    "questionCount": 100,
+    "questionsPerVariant": {
+      "1": 10,
+      "2": 10,
+      "3": 10,
+      "4": 10,
+      "5": 10,
+      "6": 10,
+      "7": 10,
+      "8": 10,
+      "9": 10,
+      "10": 10
+    }
+  },
+  "variants": [
+    {
+      "id": "variant-1",
+      "variantNumber": 1,
+      "title": "1-вариант",
+      "questions": [
+        {
+          "id": "v1-q1",
+          "number": 1,
+          "question": "Расмий иш кагаздарын белгилегиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "өмүр баян,буйрук.",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "программа, устав.",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "ишеним кат, түшүнүк кат.",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "токтом, арыз.",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "программа, устав."
+        },
+        {
+          "id": "v1-q2",
+          "number": 2,
+          "question": "Жазуунун эң акыркы үлгүсү катары кайсы жазууну айтабыз?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Кириллица",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Кыргыз жазуусу",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Орхон-Енисей",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Араб жазуусу",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Кириллица"
+        },
+        {
+          "id": "v1-q3",
+          "number": 3,
+          "question": "Адам-киши, асман-көк, эл-журт деген сөздөр кайсы сөздүн түрүнө кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Табу",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Синоним",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Омоним",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Антоним",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "Синоним"
+        },
+        {
+          "id": "v1-q4",
+          "number": 4,
+          "question": "Төмөнкүлөрдөн макал-лакапты тапкыла?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Беш өрдөгүн учуруу",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Жылдыздуу адам",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Жумурткадан кыр издөө",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Калптын казаны кайнабайт.",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "Калптын казаны кайнабайт."
+        },
+        {
+          "id": "v1-q5",
+          "number": 5,
+          "question": "Энчилүү аттарды белгилегиле",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "мектеп,класс, окуучу",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "И.Арабаев, Б. Алыкулов, Ж. Баласагын",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Бишкек,студент,жол",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "С.Чокморов, журнал, кино",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "И.Арабаев, Б. Алыкулов, Ж. Баласагын"
+        },
+        {
+          "id": "v1-q6",
+          "number": 6,
+          "question": "Абышка-чал-карыя-аксакал деген сөздөр кайсы топко кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Антоним",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Омоним",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Синоним",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Историзм",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Синоним"
+        },
+        {
+          "id": "v1-q7",
+          "number": 7,
+          "question": "Сөз деген эмне?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Сөз – тыбыштардан куралган, маани билдирген лингвистикалык бирдик",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Сөз деген- сөз",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Сөз – тыбыштардын ырааттуу тартиби",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Сөз – кишинин оозунан чыккан үн",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Сөз – тыбыштардан куралган, маани билдирген лингвистикалык бирдик"
+        },
+        {
+          "id": "v1-q8",
+          "number": 8,
+          "question": "Смартфон, демөөрчү, вай - фай, скайп деген кандай сөздөр?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Архаизм",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Неологизм",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Историзм",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Диалектизм",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "Неологизм"
+        },
+        {
+          "id": "v1-q9",
+          "number": 9,
+          "question": "Махмуд Кашгари кайсы сөздүктү түзгөн?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "«Диван лугат ат-турк»",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "«Кут алчу билим»",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "«Кассандра тамгасы»",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "«Каныбек»",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "«Диван лугат ат-турк»"
+        },
+        {
+          "id": "v1-q10",
+          "number": 10,
+          "question": "Кыргыз тилиндеги эскирген сөздөр эмне деп аталат?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Фразеологизмдер",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Архаизмдер",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Жаргондор",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Неологизмдер",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "Архаизмдер"
+        }
+      ]
+    },
+    {
+      "id": "variant-2",
+      "variantNumber": 2,
+      "title": "2-вариант",
+      "questions": [
+        {
+          "id": "v2-q1",
+          "number": 1,
+          "question": "Көп маанилүү сөздөрдү тапкыла.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Китеп",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Тумак",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Кыргыз",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Ак",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "Ак"
+        },
+        {
+          "id": "v2-q2",
+          "number": 2,
+          "question": "Кыргыз тили Кыргыз Республикасынын мамлекеттик тили болуп качан кабыл алынган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "1995-жыл, 2- сентябрь",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "1990-жылы, 23- сентябрь",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "1989-жылы, 23- сентябрь",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "1975-жылы, 26- сентябрь",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "1989-жылы, 23- сентябрь"
+        },
+        {
+          "id": "v2-q3",
+          "number": 3,
+          "question": "Кыргыз тили тилдердин кайсы тобуна кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Славян",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Роман",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Кавказ",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Түрк",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "Түрк"
+        },
+        {
+          "id": "v2-q4",
+          "number": 4,
+          "question": "Кыргыз тилиндеги «Кыргызча-орусча сөздүктү» ким түзгөн?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "И.А. Батманов",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "К.К. Юдахин",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "К.К. Сартбаев",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Ж.Мукамбаев",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "К.К. Юдахин"
+        },
+        {
+          "id": "v2-q5",
+          "number": 5,
+          "question": "Белгиленген сөздүн окшош маанисин тапкыла. Ысык-Көл – дүйнөдөгү керемет жерлердин бири.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "кооз",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "салкын",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "кызыктуу",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "оор",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "кооз"
+        },
+        {
+          "id": "v2-q6",
+          "number": 6,
+          "question": "Макалды толуктагыла. Айдаганы ....... эчки, ышкырыгы ........ жарат.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "топ,үй",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "үч, жол",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "көп, суу",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "беш, таш",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "беш, таш"
+        },
+        {
+          "id": "v2-q7",
+          "number": 7,
+          "question": "Күн-түн, калп-чын, бар-жок деген сөздөр кайсы топко кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Синонимдер",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Омонимдер",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Антонимдер",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Диалектизмдер",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Антонимдер"
+        },
+        {
+          "id": "v2-q8",
+          "number": 8,
+          "question": "Бат - тез - дароо-ылдам - деген сөздөр кайсы топко кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Неологизмдер",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Архаизмдер",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Синонимдер",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Антонимдер",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Синонимдер"
+        },
+        {
+          "id": "v2-q9",
+          "number": 9,
+          "question": "Бул термин кыргыз тилинде «туура жазам» дегенди туюндурат. Ал кайсы термин?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Орфография",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Орфоэпия",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Пунктуация",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Синекдоха",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Орфография"
+        },
+        {
+          "id": "v2-q10",
+          "number": 10,
+          "question": "Ч. Айтматовдун эң акыркы жазган чыгармасын белгиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "«Ак кеме» повести",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "«Биринчи мугалим» повести",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "«Тоолор кулаганда» романы",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "«Кассандра тамгасы»",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "«Тоолор кулаганда» романы"
+        }
+      ]
+    },
+    {
+      "id": "variant-3",
+      "variantNumber": 3,
+      "title": "3-вариант",
+      "questions": [
+        {
+          "id": "v3-q1",
+          "number": 1,
+          "question": "Ч. Айтматовдун эң алгачкы жазган чыгармасын белгиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "«Гезитчи Дзюйдо»",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "«Гүлсарат»",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "«Обон»",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "«Эрте келген турналар»",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "«Гезитчи Дзюйдо»"
+        },
+        {
+          "id": "v3-q2",
+          "number": 2,
+          "question": "” Кут алчу билим” дастанын ким жазган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Жусуп Баласагын",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Махмуд Кашгари",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "А.Осмонов",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Ч.Айтматов",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Жусуп Баласагын"
+        },
+        {
+          "id": "v3-q3",
+          "number": 3,
+          "question": "Улуу-кичүү, бийик-жапыз, жакшы-жаман деген сөздөр төмөнкүлөрдүн кайсынысына кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Кесип сөздөр",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Синонимдер",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Антонимдер",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Өтмө маанилүү сөздөр",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Антонимдер"
+        },
+        {
+          "id": "v3-q4",
+          "number": 4,
+          "question": "“Спонсор” деген сөздүн кыргызча котормосун белгилегиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "жардамчы",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "демөөрчү",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "көмөкчү",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "колдоочу",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "демөөрчү"
+        },
+        {
+          "id": "v3-q5",
+          "number": 5,
+          "question": "Көп чекиттин ордуна тиешелүү сөздү койгула.- Эртең мен ........ барам.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Асылдыкына",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Асылды",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Асылда",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Асылдын",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Асылдыкына"
+        },
+        {
+          "id": "v3-q6",
+          "number": 6,
+          "question": "Кыргыз алфавити канча тамгадан турат?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "39",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "34",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "36",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "33",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "36"
+        },
+        {
+          "id": "v3-q7",
+          "number": 7,
+          "question": "Белгиленген сөздү кайсы сөз менен алмаштырсак болот. Мен классикалык музыканы жакшы көрөм.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "кызыгам",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "сүйөм",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "жек көрөм",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "угам",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "сүйөм"
+        },
+        {
+          "id": "v3-q8",
+          "number": 8,
+          "question": "Чыгыш жөндөмөсүндөгү сөздү белгилегиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Анатайдын",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "түн киргенде",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "жолоочу",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "чанадан",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "чанадан"
+        },
+        {
+          "id": "v3-q9",
+          "number": 9,
+          "question": "Диалектилик сөздөрдү белгиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "челек, аке, ашпурт, тукум.",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "акырын, ылдам, бат, тез.",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "күндүз, кечкисин, кечээ, азыр.",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "телефон, интернет, ракета.",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "челек, аке, ашпурт, тукум."
+        },
+        {
+          "id": "v3-q10",
+          "number": 10,
+          "question": "Кыргыз жазуусунун эң алгачкы үлгүсү катары кайсы жазууну айтабыз?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Рим жазуусу",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Грек жазуусу",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Орхон-Енисей",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Араб жазуусу",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Орхон-Енисей"
+        }
+      ]
+    },
+    {
+      "id": "variant-4",
+      "variantNumber": 4,
+      "title": "4-вариант",
+      "questions": [
+        {
+          "id": "v4-q1",
+          "number": 1,
+          "question": "Төмөнкүлөрдүн кайсынысы фразеологизм эмес?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Таш боор",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Колу бош",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Сары май",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Оозу ачык",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Сары май"
+        },
+        {
+          "id": "v4-q2",
+          "number": 2,
+          "question": "Көп чекиттин ордуна тиешелүү ат атоочту белгилегиле. ................ бөлмөбүз чоң эмес.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Бизге",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Силердин",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Биздин",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Булардын",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Биздин"
+        },
+        {
+          "id": "v4-q3",
+          "number": 3,
+          "question": "Белгиленген сөз сүйлөмдүн кайсы мүчөсү. Жакшыдан жакшы ат калат.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "ээ",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "баяндооч",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "бышыктооч",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "аныктооч",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "аныктооч"
+        },
+        {
+          "id": "v4-q4",
+          "number": 4,
+          "question": "Кыргыз Республикасынын Гимнинин сөзүн кимдер жазган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Ш. Кулуев, Ж.Садыков",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "С. Орозбаков, А.Малдыбаев",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "А.Токомбаев, К.Эралиева",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "К Жантөшев, К. Баялинов",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Ш. Кулуев, Ж.Садыков"
+        },
+        {
+          "id": "v4-q5",
+          "number": 5,
+          "question": "Көп чекиттин ордуна тиешелүү сөздү койгула . Бул эрежени ......... изде.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "китепти",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "китепте",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "китептен",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "китепке",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "китептен"
+        },
+        {
+          "id": "v4-q6",
+          "number": 6,
+          "question": "Өтүнүү, сурануу, даттануу максатында айтылган иш кагазынын бир түрү кайсы?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Маалымдама",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Кулактандыруу",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Арыз",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Мүнөздөмө",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Арыз"
+        },
+        {
+          "id": "v4-q7",
+          "number": 7,
+          "question": "Коомдо жаңы пайда болгон түшүнүктүн атын атап берүү үчүн колдонулган термин кайсы?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "архаизм",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "неологизм",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "историзм",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "эскирген сөз",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "неологизм"
+        },
+        {
+          "id": "v4-q8",
+          "number": 8,
+          "question": "«Шайыр» деген сөздүн антонимин тапкыла.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "өткүр",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "ачык",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "түнт",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "күлкүчү",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "түнт"
+        },
+        {
+          "id": "v4-q9",
+          "number": 9,
+          "question": "Кыргыз Республикасынын Гимнинин музыкасын кимдер жазган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "С. Орозбаков, А.Малдыбаев",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "К.Молдобасанов, Н.Давлесов",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "А.Токомбаев, К.Эралиева",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "К. Жантошев, К. Баялинов",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "К.Молдобасанов, Н.Давлесов"
+        },
+        {
+          "id": "v4-q10",
+          "number": 10,
+          "question": "Расмий иш кагаздарына кайсылар кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Мыйзам, жарлык, устав, жобо",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Арыз, ишеним кат, тил кат, маалымдама",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Иш кагаздарынын бардыгы",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Кулактандыруу, чакыруу билеттери",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Мыйзам, жарлык, устав, жобо"
+        }
+      ]
+    },
+    {
+      "id": "variant-5",
+      "variantNumber": 5,
+      "title": "5-вариант",
+      "questions": [
+        {
+          "id": "v5-q1",
+          "number": 1,
+          "question": "Тексттин түрлөрү.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Баяндоо, сүрөттөө, ой жүгүртүү",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Баяндоо,очерк,монолог",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "монолог, диалог,цитата",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Цитата,очерк, диалог",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Баяндоо, сүрөттөө, ой жүгүртүү"
+        },
+        {
+          "id": "v5-q2",
+          "number": 2,
+          "question": "Жусуп Баласагын -",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "экономист",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "ойчул",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "соодагер",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "ишкер",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "ойчул"
+        },
+        {
+          "id": "v5-q3",
+          "number": 3,
+          "question": "Синоним деген эмне?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Жазылышы, айтылышы окшош, бирок мааниси ар башка сөздөр.",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Карама-каршы маанидеги сөздөр",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Жазылышы, айтылышы ар башка, бирок мааниси бир сөздөр",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Колдонуудан чыккан сөздөр",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Жазылышы, айтылышы ар башка, бирок мааниси бир сөздөр"
+        },
+        {
+          "id": "v5-q4",
+          "number": 4,
+          "question": "Кыргызстан качан өз алдынча эгемендүү мамлекет болуп жарыяланган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "1990 - жылы 31 – августь",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "1991 - жылы 31 – август",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "1992 - жылы 31 – августь",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "1991 - жылы 5 – май",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "1991 - жылы 31 – август"
+        },
+        {
+          "id": "v5-q5",
+          "number": 5,
+          "question": "«Жамийла» повестиндеги сүрөтчү баланын аты?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Данияр",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Султанмурат",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Сейит",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Нургазы",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Сейит"
+        },
+        {
+          "id": "v5-q6",
+          "number": 6,
+          "question": "Справка кыргыз тилинде кандай айтылат?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "билдирме",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "маалымдама",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "дүмүрчөк",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "мунапис",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "маалымдама"
+        },
+        {
+          "id": "v5-q7",
+          "number": 7,
+          "question": "Улут болуунун негизги белгилеринин бири кайсы?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "эл",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Конституция",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "коом",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "тил",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "тил"
+        },
+        {
+          "id": "v5-q8",
+          "number": 8,
+          "question": "Кыргыз Республикасынын желеги качан кабыл алынган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "1991 -ж. 1 – ноябрь",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "1992 -ж. 3- июль",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "1992-ж. 3- март",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "1993- ж. 31-август",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "1992-ж. 3- март"
+        },
+        {
+          "id": "v5-q9",
+          "number": 9,
+          "question": "Көп чекиттин ордуна ылайыктуу сан атоочту койгула. - Жигитке ......... өнөр аздык кылат.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "биринчи",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "жетимиш",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "алтоо",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "он чакты",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "жетимиш"
+        },
+        {
+          "id": "v5-q10",
+          "number": 10,
+          "question": "«Дос» деген сөздү толук алмаштыра турган синонимди тапкыла.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "санаалаш, жердеш",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "курбу, замандаш",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "курдаш, санаалаш",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "жолдош, теңтуш",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "жолдош, теңтуш"
+        }
+      ]
+    },
+    {
+      "id": "variant-6",
+      "variantNumber": 6,
+      "title": "6-вариант",
+      "questions": [
+        {
+          "id": "v6-q1",
+          "number": 1,
+          "question": "Көп чекиттин ордуна тиешелүү сөздү белгилегиле. Бул ........ кызыктуу аңгемелер бар.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "жыйнактан",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "жыйнакка",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "жыйнактын",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "жыйнакта",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "жыйнакта"
+        },
+        {
+          "id": "v6-q2",
+          "number": 2,
+          "question": "Зат атооч билдирет.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "заттын сыпатын",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "заттын кыймылын",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "заттын атын",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "заттын санын",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "заттын атын"
+        },
+        {
+          "id": "v6-q3",
+          "number": 3,
+          "question": "Булардын кимиси улуу манасчы?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Алымбай",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Сагынбай",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Жолдошбай",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Карыпбай",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "Сагынбай"
+        },
+        {
+          "id": "v6-q4",
+          "number": 4,
+          "question": "«Сараң» деген сөздүн синоними.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "көзү ачык",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "битир",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "көзү жок",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "көзүн май баскан",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "битир"
+        },
+        {
+          "id": "v6-q5",
+          "number": 5,
+          "question": "Кыргыз эли колдонгон жазууларды ирээти менен туура көрсөт.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Орхон-Енисей жазуулары, араб, кытай, латын алфавиттери",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Араб, иран, кыргыз алфавиттери",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Орхон-Енисей жазуулары, араб алфавити, латын жана орус алфавиттери",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Араб, латын, Орхон-Енисей, түрк",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Орхон-Енисей жазуулары, араб алфавити, латын жана орус алфавиттери"
+        },
+        {
+          "id": "v6-q6",
+          "number": 6,
+          "question": "Кыргыз адабий тилинде канча тамга, канча тыбыш бар?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "34 тамга ,26 тыбыш",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "36 тамга, 39 тыбыш",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "36 тамга, 34 тыбыш",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "30 тамга, 24 тыбыш",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "36 тамга, 39 тыбыш"
+        },
+        {
+          "id": "v6-q7",
+          "number": 7,
+          "question": "Кыргыз тилинде канча үндүү тыбыш бар?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "12",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "14",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "8",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "6",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "14"
+        },
+        {
+          "id": "v6-q8",
+          "number": 8,
+          "question": "Белгилүү манасчылардын атын ата.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Сагынбай, Саякбай, Жайсан, Балык",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Карамолдо, Токтогул, Тоголок Молдо",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Тологон, Касым, Гапар, Касымалы",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Мидин, Байдылда, Омор, Сабыр",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Сагынбай, Саякбай, Жайсан, Балык"
+        },
+        {
+          "id": "v6-q9",
+          "number": 9,
+          "question": "Омоним сөздөрдү тапкыла.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "жоон-ичке, жаш-кары",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "апа-эне, эже-апче",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "кат, так, жаз, кой",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "апа, ата, байке, эже",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "кат, так, жаз, кой"
+        },
+        {
+          "id": "v6-q10",
+          "number": 10,
+          "question": "Макалды толуктагыла. Эмгектин наны ......., жалкоонун жаны ....... .",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "даамдуу",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "таттуу",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "ырайымдуу",
+              "originalLabel": "б"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "каардуу",
+              "originalLabel": "в"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "таттуу"
+        }
+      ]
+    },
+    {
+      "id": "variant-7",
+      "variantNumber": 7,
+      "title": "7-вариант",
+      "questions": [
+        {
+          "id": "v7-q1",
+          "number": 1,
+          "question": "Дефис аркылуу жазылуучу сөздөрдү табыңыз.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "турфирма, жай баракат",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "бала бакыра, күч кубат",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "эң сонун, Умай эне",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Ысык көл, мала кызыл",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "бала бакыра, күч кубат"
+        },
+        {
+          "id": "v7-q2",
+          "number": 2,
+          "question": "Бир маанилүү сөздөрдү табыңыз.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "акыл, тоо, китеп",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "көз, кыш, баш",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "машина, жаз, борбор",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "күн, ак, суу",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "акыл, тоо, китеп"
+        },
+        {
+          "id": "v7-q3",
+          "number": 3,
+          "question": "Адамдын ички сезимин билдирген сөздөрдү табыңыз.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "куурай башын сындырбаган",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "кабагына кар жаап, капа болгон",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "бөйрөктөн шыйрак чыгарган",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "жумурткадан кыр издеген",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "кабагына кар жаап, капа болгон"
+        },
+        {
+          "id": "v7-q4",
+          "number": 4,
+          "question": "Тыбыштык жактан өзгөртүлүп айтылган сөздөрдү белгилеӊиз.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "поезд, биснес, кридит",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "көлөч, чиркөө, сот",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "жаан, челек, чайнек",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "үй, мектеп, китеп",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "поезд, биснес, кридит"
+        },
+        {
+          "id": "v7-q5",
+          "number": 5,
+          "question": "Кыргыз тилинде басым көпчүлүк учурда кайсы муунга түшөт?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "биринчи муунга",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "акыркы муунга",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "бардык муунга",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "коюлбайт",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "акыркы муунга"
+        },
+        {
+          "id": "v7-q6",
+          "number": 6,
+          "question": "Кыргыздын улуттук аспабы кайсы?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "скрипка",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "домбра",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "чопо чоор",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "баян",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "чопо чоор"
+        },
+        {
+          "id": "v7-q7",
+          "number": 7,
+          "question": "Белгиленген сөздү кайсы сөз менен алмаштырсак болот. Мен классикалык музыканы жакшы көрөм.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "кызыгам",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "сүйөм",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "жек көрөм",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "угам",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "сүйөм"
+        },
+        {
+          "id": "v7-q8",
+          "number": 8,
+          "question": "Берилген сөз тизмектеринен туура жазылган вариантты тапкыла.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "көрө элек, кеп ук, стоматологго",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "сөссүз, сынтакпа, чогуу",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "койоюн, маареке, түнкү",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "жылаңбаш, көссал, аёосуз",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "көрө элек, кеп ук, стоматологго"
+        },
+        {
+          "id": "v7-q9",
+          "number": 9,
+          "question": "Сүйлөмдү толуктагыла. Комуздун добушу ........... угулат.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "катуу",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "мукамдуу",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "дароо",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "акырын",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "мукамдуу"
+        },
+        {
+          "id": "v7-q10",
+          "number": 10,
+          "question": "Берилген сүйлөмгө маанисине жараша тууранды сөздү койгула. Айнура ............... этип, эмне кылар айласын таппайт.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "балп-балп",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "кыт-кыт",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "калч-калч",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "далдаң-далдаң",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "калч-калч"
+        }
+      ]
+    },
+    {
+      "id": "variant-8",
+      "variantNumber": 8,
+      "title": "8-вариант",
+      "questions": [
+        {
+          "id": "v8-q1",
+          "number": 1,
+          "question": "Рапорт кыргызча кандайча аталат?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Билдирме",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Маалымдама",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Дүмүрчөк",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Мунапис",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Билдирме"
+        },
+        {
+          "id": "v8-q2",
+          "number": 2,
+          "question": "Барыш жөндөмөсүндөгү сөздү тапкыла.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "акылдуулук",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "китептин",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "айылга",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "күзүндө",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "айылга"
+        },
+        {
+          "id": "v8-q3",
+          "number": 3,
+          "question": "Төмөнкүлөрдүн кайсынысы фразеологизм эмес?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "таш боор",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "колу ачык",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "каны кызуу",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "боз үй",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "боз үй"
+        },
+        {
+          "id": "v8-q4",
+          "number": 4,
+          "question": "Улуу-кичүү, бийик-жапыз, жакшы-жаман деген сөздөр кайсы топко кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "кесиптик сөздөр",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "антонимдер",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "омонимдер",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "синонимдер",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "антонимдер"
+        },
+        {
+          "id": "v8-q5",
+          "number": 5,
+          "question": "Кыргыз тилиндеги „Кыргызча-орусча“ сөздүктү ким түзгөн?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Батманов И.А.",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Юдахин К.К.",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Мукамбаев Ж.",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Сартбаев К.К.",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "Юдахин К.К."
+        },
+        {
+          "id": "v8-q6",
+          "number": 6,
+          "question": "Пиала, аш, асел, үкө, аба деген сөздөр кайсы топко кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "синоним",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "историзм",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "диалектизм",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "архаизм",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "диалектизм"
+        },
+        {
+          "id": "v8-q7",
+          "number": 7,
+          "question": "Кыргыз тили тилдердин кайсы тобуна кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "түрк",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "монгол",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "араб",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "орус",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "түрк"
+        },
+        {
+          "id": "v8-q8",
+          "number": 8,
+          "question": "Мукай Элебаевдин өмүр жолун чагылдырган чыгарманы белгиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "«Соңку бир күн»",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "«Узак жол»",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "«Төрт жолоочу»",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "«Ашырбай»",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "«Узак жол»"
+        },
+        {
+          "id": "v8-q9",
+          "number": 9,
+          "question": "Жусуп Баласагындын чыгармасы?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "„ Жамийла“",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "«Кут алчу билим»",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "„ Узак жол“",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "«Курманжан Датка»",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "«Кут алчу билим»"
+        },
+        {
+          "id": "v8-q10",
+          "number": 10,
+          "question": "Кыргыз адабий тилинде канча тамга, канча тыбыш бар?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "34 тамга ,26 тыбыш",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "36тамга, 39 тыбыш",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "36 тамга, 34 тыбыш",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "30 тамга, 24 тыбыш",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "36тамга, 39 тыбыш"
+        }
+      ]
+    },
+    {
+      "id": "variant-9",
+      "variantNumber": 9,
+      "title": "9-вариант",
+      "questions": [
+        {
+          "id": "v9-q1",
+          "number": 1,
+          "question": "Кыргыз тилинде канча үндүү тыбыш бар?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "12",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "14",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "8",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "6",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "14"
+        },
+        {
+          "id": "v9-q2",
+          "number": 2,
+          "question": "«Манас» эпосундагы башкы каармандар:",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Манас, Каныкей, Бегимай, Кыз Сайкал, Жакып",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Манас, Бакай, Чубак, Кошой, Чыйырды",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Манас, Акбалта, Айчүрөк, Тулкубек, Сыргак",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Каныкей, Акылай, Жаныл Мырза, Серек",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "Манас, Бакай, Чубак, Кошой, Чыйырды"
+        },
+        {
+          "id": "v9-q3",
+          "number": 3,
+          "question": "Эпостогу Манастын атынын аты?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Алгара",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Тайтору",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Ак кула",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Чабдар",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "Ак кула"
+        },
+        {
+          "id": "v9-q4",
+          "number": 4,
+          "question": "Белгилүү манасчылардын атын ата.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Сагынбай, Саякбай, Жайсан, Балык",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "Карамолдо, Токтогул, Тоголок Молдо",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Төлөгөн, Касым, Гапар, Касымалы",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Мидин, Байдылда, Омор, Сабыр",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Сагынбай, Саякбай, Жайсан, Балык"
+        },
+        {
+          "id": "v9-q5",
+          "number": 5,
+          "question": "«Манас» эпосун изилдөөчүлөр?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Ч. Валиханов, Радлов, К. Мифтаков",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "И. Арабаев, К.Тыныстанов, И. Раззаков",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Ж. Баласагын, М. Кашкари, Омар Хаям",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "М. Байжиев, М. Элебаев.",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "Ч. Валиханов, Радлов, К. Мифтаков"
+        },
+        {
+          "id": "v9-q6",
+          "number": 6,
+          "question": "Белгиленген сөздүн синонимин тапкыла. – Бул текст силер үчүн оңой.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "жеңил",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "аз",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "кичинекей",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "маанилүү",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "жеңил"
+        },
+        {
+          "id": "v9-q7",
+          "number": 7,
+          "question": "Кыргыз тилинде канча сөз түркүмү бар?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "тогуз",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "беш",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "он эки",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "алты",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "он эки"
+        },
+        {
+          "id": "v9-q8",
+          "number": 8,
+          "question": "Кыргызстан качан өз алдынча эгемендүү мамлекет болуп жарыяланган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "1990 - жылы 31 – августа",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "1991 - жылы 31 – августа",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "1992 - жылы 31 – августа",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "1991 - жылы 5 – майда",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "1991 - жылы 31 – августа"
+        },
+        {
+          "id": "v9-q9",
+          "number": 9,
+          "question": "Өзгөчө сөз түрүмдөрүн белгилегиле.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "зат атооч,сын аточ,сан атооч",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "тактооч, этиш, ат атооч",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "жандооч ,байламта, бөлүкчө",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "сырдык сөз, тууранды сөз",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "сырдык сөз, тууранды сөз"
+        },
+        {
+          "id": "v9-q10",
+          "number": 10,
+          "question": "Алфавит деген эмне?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "белгилүү бир тартип боюнча тамгалардын жыйындысы",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "белгилүү бир тартип боюнча тыбыштардын жыйындысы",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "тамга, тыбыштардын ирээти менен орун алышы",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "белгилердин жыйындысы",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "белгилүү бир тартип боюнча тамгалардын жыйындысы"
+        }
+      ]
+    },
+    {
+      "id": "variant-10",
+      "variantNumber": 10,
+      "title": "10-вариант",
+      "questions": [
+        {
+          "id": "v10-q1",
+          "number": 1,
+          "question": "Кыргыз тилинде үндүү тыбыштар эринге карата кандай болуп бөлүнөт?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "кең, кууш",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "ачык,жабык",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "эринчил, эринсиз",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "кыска, созулма",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "эринчил, эринсиз"
+        },
+        {
+          "id": "v10-q2",
+          "number": 2,
+          "question": "Жоон үндүүлөрдү тап.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "а, и, о, у",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "а, э, ү, о",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "о, э, ү, ы",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "а, о, ы, у",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "а, о, ы, у"
+        },
+        {
+          "id": "v10-q3",
+          "number": 3,
+          "question": "Кыргыз Республикасынын желеги качан кабыл алынган?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "1991 -ж. 1 – ноябрь",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "1992 -ж. 3- июль",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "1992-ж. 3-март",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "1993- ж. 31-август",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "1992-ж. 3-март"
+        },
+        {
+          "id": "v10-q4",
+          "number": 4,
+          "question": "Тилдеги тыбыштарды окутуучу илим кайсы?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "орфография",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "фонетика",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "лексика",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "синтаксис",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "фонетика"
+        },
+        {
+          "id": "v10-q5",
+          "number": 5,
+          "question": "Кыргыз элинин алгачкы агартуучулары кимдер?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "Ж. Баласагын",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "М. Кашгари",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "И. Арабаев, К. Тыныстанов",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "А. Осмонов, Ч. Айтматов",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "И. Арабаев, К. Тыныстанов"
+        },
+        {
+          "id": "v10-q6",
+          "number": 6,
+          "question": "Аңгеме, повесть стилдин кайсы түрүнө кирет?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "иш кагаздар стили",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "публицистикалык стиль",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "көркөм стиль",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "адабий стиль",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "г",
+          "correctOptionOriginal": "Г",
+          "correctAnswer": "адабий стиль"
+        },
+        {
+          "id": "v10-q7",
+          "number": 7,
+          "question": "Туура жазууга үйрөтүүчү илим",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "морфология",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "фонетика",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "орфография",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "орфоэпия",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "в",
+          "correctOptionOriginal": "В",
+          "correctAnswer": "орфография"
+        },
+        {
+          "id": "v10-q8",
+          "number": 8,
+          "question": "Кыргыз Республикасынын гербинин автору ким?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "А. Абдыраев, С. Дубанаев",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "К. Молдобасанов, Н. Давлесов",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "Ж. Садыков, Ш.Кулуев",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "Р. Абдыкадыров, А. Шаршенов",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "А. Абдыраев, С. Дубанаев"
+        },
+        {
+          "id": "v10-q9",
+          "number": 9,
+          "question": "Белгиленген сөздүн антонимин тапкыла. Кечээ мен жаңы макала жаза баштадым.",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "бүтүрдүм",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "бышырдым",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "бардым",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "котордум",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "а",
+          "correctOptionOriginal": "А",
+          "correctAnswer": "бүтүрдүм"
+        },
+        {
+          "id": "v10-q10",
+          "number": 10,
+          "question": "Кыргыз адабий тилинде канча созулма үндүү бар?",
+          "options": [
+            {
+              "id": "а",
+              "label": "а",
+              "text": "8",
+              "originalLabel": "а"
+            },
+            {
+              "id": "б",
+              "label": "б",
+              "text": "6",
+              "originalLabel": "б"
+            },
+            {
+              "id": "в",
+              "label": "в",
+              "text": "4",
+              "originalLabel": "в"
+            },
+            {
+              "id": "г",
+              "label": "г",
+              "text": "7",
+              "originalLabel": "г"
+            }
+          ],
+          "correctOption": "б",
+          "correctOptionOriginal": "Б",
+          "correctAnswer": "6"
+        }
+      ]
+    }
+  ],
+  "flatQuestions": [
+    {
+      "id": "v1-q1",
+      "number": 1,
+      "question": "Расмий иш кагаздарын белгилегиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "өмүр баян,буйрук.",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "программа, устав.",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "ишеним кат, түшүнүк кат.",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "токтом, арыз.",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "программа, устав.",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q2",
+      "number": 2,
+      "question": "Жазуунун эң акыркы үлгүсү катары кайсы жазууну айтабыз?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Кириллица",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Кыргыз жазуусу",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Орхон-Енисей",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Араб жазуусу",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Кириллица",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q3",
+      "number": 3,
+      "question": "Адам-киши, асман-көк, эл-журт деген сөздөр кайсы сөздүн түрүнө кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Табу",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Синоним",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Омоним",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Антоним",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "Синоним",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q4",
+      "number": 4,
+      "question": "Төмөнкүлөрдөн макал-лакапты тапкыла?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Беш өрдөгүн учуруу",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Жылдыздуу адам",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Жумурткадан кыр издөө",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Калптын казаны кайнабайт.",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "Калптын казаны кайнабайт.",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q5",
+      "number": 5,
+      "question": "Энчилүү аттарды белгилегиле",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "мектеп,класс, окуучу",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "И.Арабаев, Б. Алыкулов, Ж. Баласагын",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Бишкек,студент,жол",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "С.Чокморов, журнал, кино",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "И.Арабаев, Б. Алыкулов, Ж. Баласагын",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q6",
+      "number": 6,
+      "question": "Абышка-чал-карыя-аксакал деген сөздөр кайсы топко кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Антоним",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Омоним",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Синоним",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Историзм",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Синоним",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q7",
+      "number": 7,
+      "question": "Сөз деген эмне?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Сөз – тыбыштардан куралган, маани билдирген лингвистикалык бирдик",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Сөз деген- сөз",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Сөз – тыбыштардын ырааттуу тартиби",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Сөз – кишинин оозунан чыккан үн",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Сөз – тыбыштардан куралган, маани билдирген лингвистикалык бирдик",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q8",
+      "number": 8,
+      "question": "Смартфон, демөөрчү, вай - фай, скайп деген кандай сөздөр?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Архаизм",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Неологизм",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Историзм",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Диалектизм",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "Неологизм",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q9",
+      "number": 9,
+      "question": "Махмуд Кашгари кайсы сөздүктү түзгөн?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "«Диван лугат ат-турк»",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "«Кут алчу билим»",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "«Кассандра тамгасы»",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "«Каныбек»",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "«Диван лугат ат-турк»",
+      "variantNumber": 1
+    },
+    {
+      "id": "v1-q10",
+      "number": 10,
+      "question": "Кыргыз тилиндеги эскирген сөздөр эмне деп аталат?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Фразеологизмдер",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Архаизмдер",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Жаргондор",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Неологизмдер",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "Архаизмдер",
+      "variantNumber": 1
+    },
+    {
+      "id": "v2-q1",
+      "number": 1,
+      "question": "Көп маанилүү сөздөрдү тапкыла.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Китеп",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Тумак",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Кыргыз",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Ак",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "Ак",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q2",
+      "number": 2,
+      "question": "Кыргыз тили Кыргыз Республикасынын мамлекеттик тили болуп качан кабыл алынган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "1995-жыл, 2- сентябрь",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "1990-жылы, 23- сентябрь",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "1989-жылы, 23- сентябрь",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "1975-жылы, 26- сентябрь",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "1989-жылы, 23- сентябрь",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q3",
+      "number": 3,
+      "question": "Кыргыз тили тилдердин кайсы тобуна кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Славян",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Роман",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Кавказ",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Түрк",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "Түрк",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q4",
+      "number": 4,
+      "question": "Кыргыз тилиндеги «Кыргызча-орусча сөздүктү» ким түзгөн?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "И.А. Батманов",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "К.К. Юдахин",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "К.К. Сартбаев",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Ж.Мукамбаев",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "К.К. Юдахин",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q5",
+      "number": 5,
+      "question": "Белгиленген сөздүн окшош маанисин тапкыла. Ысык-Көл – дүйнөдөгү керемет жерлердин бири.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "кооз",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "салкын",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "кызыктуу",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "оор",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "кооз",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q6",
+      "number": 6,
+      "question": "Макалды толуктагыла. Айдаганы ....... эчки, ышкырыгы ........ жарат.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "топ,үй",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "үч, жол",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "көп, суу",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "беш, таш",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "беш, таш",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q7",
+      "number": 7,
+      "question": "Күн-түн, калп-чын, бар-жок деген сөздөр кайсы топко кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Синонимдер",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Омонимдер",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Антонимдер",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Диалектизмдер",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Антонимдер",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q8",
+      "number": 8,
+      "question": "Бат - тез - дароо-ылдам - деген сөздөр кайсы топко кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Неологизмдер",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Архаизмдер",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Синонимдер",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Антонимдер",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Синонимдер",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q9",
+      "number": 9,
+      "question": "Бул термин кыргыз тилинде «туура жазам» дегенди туюндурат. Ал кайсы термин?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Орфография",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Орфоэпия",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Пунктуация",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Синекдоха",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Орфография",
+      "variantNumber": 2
+    },
+    {
+      "id": "v2-q10",
+      "number": 10,
+      "question": "Ч. Айтматовдун эң акыркы жазган чыгармасын белгиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "«Ак кеме» повести",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "«Биринчи мугалим» повести",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "«Тоолор кулаганда» романы",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "«Кассандра тамгасы»",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "«Тоолор кулаганда» романы",
+      "variantNumber": 2
+    },
+    {
+      "id": "v3-q1",
+      "number": 1,
+      "question": "Ч. Айтматовдун эң алгачкы жазган чыгармасын белгиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "«Гезитчи Дзюйдо»",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "«Гүлсарат»",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "«Обон»",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "«Эрте келген турналар»",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "«Гезитчи Дзюйдо»",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q2",
+      "number": 2,
+      "question": "” Кут алчу билим” дастанын ким жазган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Жусуп Баласагын",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Махмуд Кашгари",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "А.Осмонов",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Ч.Айтматов",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Жусуп Баласагын",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q3",
+      "number": 3,
+      "question": "Улуу-кичүү, бийик-жапыз, жакшы-жаман деген сөздөр төмөнкүлөрдүн кайсынысына кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Кесип сөздөр",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Синонимдер",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Антонимдер",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Өтмө маанилүү сөздөр",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Антонимдер",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q4",
+      "number": 4,
+      "question": "“Спонсор” деген сөздүн кыргызча котормосун белгилегиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "жардамчы",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "демөөрчү",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "көмөкчү",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "колдоочу",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "демөөрчү",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q5",
+      "number": 5,
+      "question": "Көп чекиттин ордуна тиешелүү сөздү койгула.- Эртең мен ........ барам.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Асылдыкына",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Асылды",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Асылда",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Асылдын",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Асылдыкына",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q6",
+      "number": 6,
+      "question": "Кыргыз алфавити канча тамгадан турат?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "39",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "34",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "36",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "33",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "36",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q7",
+      "number": 7,
+      "question": "Белгиленген сөздү кайсы сөз менен алмаштырсак болот. Мен классикалык музыканы жакшы көрөм.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "кызыгам",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "сүйөм",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "жек көрөм",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "угам",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "сүйөм",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q8",
+      "number": 8,
+      "question": "Чыгыш жөндөмөсүндөгү сөздү белгилегиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Анатайдын",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "түн киргенде",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "жолоочу",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "чанадан",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "чанадан",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q9",
+      "number": 9,
+      "question": "Диалектилик сөздөрдү белгиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "челек, аке, ашпурт, тукум.",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "акырын, ылдам, бат, тез.",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "күндүз, кечкисин, кечээ, азыр.",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "телефон, интернет, ракета.",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "челек, аке, ашпурт, тукум.",
+      "variantNumber": 3
+    },
+    {
+      "id": "v3-q10",
+      "number": 10,
+      "question": "Кыргыз жазуусунун эң алгачкы үлгүсү катары кайсы жазууну айтабыз?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Рим жазуусу",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Грек жазуусу",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Орхон-Енисей",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Араб жазуусу",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Орхон-Енисей",
+      "variantNumber": 3
+    },
+    {
+      "id": "v4-q1",
+      "number": 1,
+      "question": "Төмөнкүлөрдүн кайсынысы фразеологизм эмес?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Таш боор",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Колу бош",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Сары май",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Оозу ачык",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Сары май",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q2",
+      "number": 2,
+      "question": "Көп чекиттин ордуна тиешелүү ат атоочту белгилегиле. ................ бөлмөбүз чоң эмес.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Бизге",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Силердин",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Биздин",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Булардын",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Биздин",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q3",
+      "number": 3,
+      "question": "Белгиленген сөз сүйлөмдүн кайсы мүчөсү. Жакшыдан жакшы ат калат.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "ээ",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "баяндооч",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "бышыктооч",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "аныктооч",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "аныктооч",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q4",
+      "number": 4,
+      "question": "Кыргыз Республикасынын Гимнинин сөзүн кимдер жазган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Ш. Кулуев, Ж.Садыков",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "С. Орозбаков, А.Малдыбаев",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "А.Токомбаев, К.Эралиева",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "К Жантөшев, К. Баялинов",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Ш. Кулуев, Ж.Садыков",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q5",
+      "number": 5,
+      "question": "Көп чекиттин ордуна тиешелүү сөздү койгула . Бул эрежени ......... изде.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "китепти",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "китепте",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "китептен",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "китепке",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "китептен",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q6",
+      "number": 6,
+      "question": "Өтүнүү, сурануу, даттануу максатында айтылган иш кагазынын бир түрү кайсы?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Маалымдама",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Кулактандыруу",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Арыз",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Мүнөздөмө",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Арыз",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q7",
+      "number": 7,
+      "question": "Коомдо жаңы пайда болгон түшүнүктүн атын атап берүү үчүн колдонулган термин кайсы?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "архаизм",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "неологизм",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "историзм",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "эскирген сөз",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "неологизм",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q8",
+      "number": 8,
+      "question": "«Шайыр» деген сөздүн антонимин тапкыла.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "өткүр",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "ачык",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "түнт",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "күлкүчү",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "түнт",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q9",
+      "number": 9,
+      "question": "Кыргыз Республикасынын Гимнинин музыкасын кимдер жазган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "С. Орозбаков, А.Малдыбаев",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "К.Молдобасанов, Н.Давлесов",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "А.Токомбаев, К.Эралиева",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "К. Жантошев, К. Баялинов",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "К.Молдобасанов, Н.Давлесов",
+      "variantNumber": 4
+    },
+    {
+      "id": "v4-q10",
+      "number": 10,
+      "question": "Расмий иш кагаздарына кайсылар кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Мыйзам, жарлык, устав, жобо",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Арыз, ишеним кат, тил кат, маалымдама",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Иш кагаздарынын бардыгы",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Кулактандыруу, чакыруу билеттери",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Мыйзам, жарлык, устав, жобо",
+      "variantNumber": 4
+    },
+    {
+      "id": "v5-q1",
+      "number": 1,
+      "question": "Тексттин түрлөрү.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Баяндоо, сүрөттөө, ой жүгүртүү",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Баяндоо,очерк,монолог",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "монолог, диалог,цитата",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Цитата,очерк, диалог",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Баяндоо, сүрөттөө, ой жүгүртүү",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q2",
+      "number": 2,
+      "question": "Жусуп Баласагын -",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "экономист",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "ойчул",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "соодагер",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "ишкер",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "ойчул",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q3",
+      "number": 3,
+      "question": "Синоним деген эмне?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Жазылышы, айтылышы окшош, бирок мааниси ар башка сөздөр.",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Карама-каршы маанидеги сөздөр",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Жазылышы, айтылышы ар башка, бирок мааниси бир сөздөр",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Колдонуудан чыккан сөздөр",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Жазылышы, айтылышы ар башка, бирок мааниси бир сөздөр",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q4",
+      "number": 4,
+      "question": "Кыргызстан качан өз алдынча эгемендүү мамлекет болуп жарыяланган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "1990 - жылы 31 – августь",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "1991 - жылы 31 – август",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "1992 - жылы 31 – августь",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "1991 - жылы 5 – май",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "1991 - жылы 31 – август",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q5",
+      "number": 5,
+      "question": "«Жамийла» повестиндеги сүрөтчү баланын аты?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Данияр",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Султанмурат",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Сейит",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Нургазы",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Сейит",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q6",
+      "number": 6,
+      "question": "Справка кыргыз тилинде кандай айтылат?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "билдирме",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "маалымдама",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "дүмүрчөк",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "мунапис",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "маалымдама",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q7",
+      "number": 7,
+      "question": "Улут болуунун негизги белгилеринин бири кайсы?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "эл",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Конституция",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "коом",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "тил",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "тил",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q8",
+      "number": 8,
+      "question": "Кыргыз Республикасынын желеги качан кабыл алынган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "1991 -ж. 1 – ноябрь",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "1992 -ж. 3- июль",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "1992-ж. 3- март",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "1993- ж. 31-август",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "1992-ж. 3- март",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q9",
+      "number": 9,
+      "question": "Көп чекиттин ордуна ылайыктуу сан атоочту койгула. - Жигитке ......... өнөр аздык кылат.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "биринчи",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "жетимиш",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "алтоо",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "он чакты",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "жетимиш",
+      "variantNumber": 5
+    },
+    {
+      "id": "v5-q10",
+      "number": 10,
+      "question": "«Дос» деген сөздү толук алмаштыра турган синонимди тапкыла.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "санаалаш, жердеш",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "курбу, замандаш",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "курдаш, санаалаш",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "жолдош, теңтуш",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "жолдош, теңтуш",
+      "variantNumber": 5
+    },
+    {
+      "id": "v6-q1",
+      "number": 1,
+      "question": "Көп чекиттин ордуна тиешелүү сөздү белгилегиле. Бул ........ кызыктуу аңгемелер бар.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "жыйнактан",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "жыйнакка",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "жыйнактын",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "жыйнакта",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "жыйнакта",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q2",
+      "number": 2,
+      "question": "Зат атооч билдирет.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "заттын сыпатын",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "заттын кыймылын",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "заттын атын",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "заттын санын",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "заттын атын",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q3",
+      "number": 3,
+      "question": "Булардын кимиси улуу манасчы?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Алымбай",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Сагынбай",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Жолдошбай",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Карыпбай",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "Сагынбай",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q4",
+      "number": 4,
+      "question": "«Сараң» деген сөздүн синоними.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "көзү ачык",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "битир",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "көзү жок",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "көзүн май баскан",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "битир",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q5",
+      "number": 5,
+      "question": "Кыргыз эли колдонгон жазууларды ирээти менен туура көрсөт.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Орхон-Енисей жазуулары, араб, кытай, латын алфавиттери",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Араб, иран, кыргыз алфавиттери",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Орхон-Енисей жазуулары, араб алфавити, латын жана орус алфавиттери",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Араб, латын, Орхон-Енисей, түрк",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Орхон-Енисей жазуулары, араб алфавити, латын жана орус алфавиттери",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q6",
+      "number": 6,
+      "question": "Кыргыз адабий тилинде канча тамга, канча тыбыш бар?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "34 тамга ,26 тыбыш",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "36 тамга, 39 тыбыш",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "36 тамга, 34 тыбыш",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "30 тамга, 24 тыбыш",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "36 тамга, 39 тыбыш",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q7",
+      "number": 7,
+      "question": "Кыргыз тилинде канча үндүү тыбыш бар?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "12",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "14",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "8",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "6",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "14",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q8",
+      "number": 8,
+      "question": "Белгилүү манасчылардын атын ата.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Сагынбай, Саякбай, Жайсан, Балык",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Карамолдо, Токтогул, Тоголок Молдо",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Тологон, Касым, Гапар, Касымалы",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Мидин, Байдылда, Омор, Сабыр",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Сагынбай, Саякбай, Жайсан, Балык",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q9",
+      "number": 9,
+      "question": "Омоним сөздөрдү тапкыла.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "жоон-ичке, жаш-кары",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "апа-эне, эже-апче",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "кат, так, жаз, кой",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "апа, ата, байке, эже",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "кат, так, жаз, кой",
+      "variantNumber": 6
+    },
+    {
+      "id": "v6-q10",
+      "number": 10,
+      "question": "Макалды толуктагыла. Эмгектин наны ......., жалкоонун жаны ....... .",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "даамдуу",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "таттуу",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "ырайымдуу",
+          "originalLabel": "б"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "каардуу",
+          "originalLabel": "в"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "таттуу",
+      "variantNumber": 6
+    },
+    {
+      "id": "v7-q1",
+      "number": 1,
+      "question": "Дефис аркылуу жазылуучу сөздөрдү табыңыз.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "турфирма, жай баракат",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "бала бакыра, күч кубат",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "эң сонун, Умай эне",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Ысык көл, мала кызыл",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "бала бакыра, күч кубат",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q2",
+      "number": 2,
+      "question": "Бир маанилүү сөздөрдү табыңыз.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "акыл, тоо, китеп",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "көз, кыш, баш",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "машина, жаз, борбор",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "күн, ак, суу",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "акыл, тоо, китеп",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q3",
+      "number": 3,
+      "question": "Адамдын ички сезимин билдирген сөздөрдү табыңыз.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "куурай башын сындырбаган",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "кабагына кар жаап, капа болгон",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "бөйрөктөн шыйрак чыгарган",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "жумурткадан кыр издеген",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "кабагына кар жаап, капа болгон",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q4",
+      "number": 4,
+      "question": "Тыбыштык жактан өзгөртүлүп айтылган сөздөрдү белгилеӊиз.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "поезд, биснес, кридит",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "көлөч, чиркөө, сот",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "жаан, челек, чайнек",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "үй, мектеп, китеп",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "поезд, биснес, кридит",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q5",
+      "number": 5,
+      "question": "Кыргыз тилинде басым көпчүлүк учурда кайсы муунга түшөт?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "биринчи муунга",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "акыркы муунга",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "бардык муунга",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "коюлбайт",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "акыркы муунга",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q6",
+      "number": 6,
+      "question": "Кыргыздын улуттук аспабы кайсы?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "скрипка",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "домбра",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "чопо чоор",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "баян",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "чопо чоор",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q7",
+      "number": 7,
+      "question": "Белгиленген сөздү кайсы сөз менен алмаштырсак болот. Мен классикалык музыканы жакшы көрөм.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "кызыгам",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "сүйөм",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "жек көрөм",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "угам",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "сүйөм",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q8",
+      "number": 8,
+      "question": "Берилген сөз тизмектеринен туура жазылган вариантты тапкыла.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "көрө элек, кеп ук, стоматологго",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "сөссүз, сынтакпа, чогуу",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "койоюн, маареке, түнкү",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "жылаңбаш, көссал, аёосуз",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "көрө элек, кеп ук, стоматологго",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q9",
+      "number": 9,
+      "question": "Сүйлөмдү толуктагыла. Комуздун добушу ........... угулат.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "катуу",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "мукамдуу",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "дароо",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "акырын",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "мукамдуу",
+      "variantNumber": 7
+    },
+    {
+      "id": "v7-q10",
+      "number": 10,
+      "question": "Берилген сүйлөмгө маанисине жараша тууранды сөздү койгула. Айнура ............... этип, эмне кылар айласын таппайт.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "балп-балп",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "кыт-кыт",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "калч-калч",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "далдаң-далдаң",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "калч-калч",
+      "variantNumber": 7
+    },
+    {
+      "id": "v8-q1",
+      "number": 1,
+      "question": "Рапорт кыргызча кандайча аталат?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Билдирме",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Маалымдама",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Дүмүрчөк",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Мунапис",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Билдирме",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q2",
+      "number": 2,
+      "question": "Барыш жөндөмөсүндөгү сөздү тапкыла.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "акылдуулук",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "китептин",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "айылга",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "күзүндө",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "айылга",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q3",
+      "number": 3,
+      "question": "Төмөнкүлөрдүн кайсынысы фразеологизм эмес?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "таш боор",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "колу ачык",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "каны кызуу",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "боз үй",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "боз үй",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q4",
+      "number": 4,
+      "question": "Улуу-кичүү, бийик-жапыз, жакшы-жаман деген сөздөр кайсы топко кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "кесиптик сөздөр",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "антонимдер",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "омонимдер",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "синонимдер",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "антонимдер",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q5",
+      "number": 5,
+      "question": "Кыргыз тилиндеги „Кыргызча-орусча“ сөздүктү ким түзгөн?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Батманов И.А.",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Юдахин К.К.",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Мукамбаев Ж.",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Сартбаев К.К.",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "Юдахин К.К.",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q6",
+      "number": 6,
+      "question": "Пиала, аш, асел, үкө, аба деген сөздөр кайсы топко кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "синоним",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "историзм",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "диалектизм",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "архаизм",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "диалектизм",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q7",
+      "number": 7,
+      "question": "Кыргыз тили тилдердин кайсы тобуна кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "түрк",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "монгол",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "араб",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "орус",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "түрк",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q8",
+      "number": 8,
+      "question": "Мукай Элебаевдин өмүр жолун чагылдырган чыгарманы белгиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "«Соңку бир күн»",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "«Узак жол»",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "«Төрт жолоочу»",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "«Ашырбай»",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "«Узак жол»",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q9",
+      "number": 9,
+      "question": "Жусуп Баласагындын чыгармасы?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "„ Жамийла“",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "«Кут алчу билим»",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "„ Узак жол“",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "«Курманжан Датка»",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "«Кут алчу билим»",
+      "variantNumber": 8
+    },
+    {
+      "id": "v8-q10",
+      "number": 10,
+      "question": "Кыргыз адабий тилинде канча тамга, канча тыбыш бар?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "34 тамга ,26 тыбыш",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "36тамга, 39 тыбыш",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "36 тамга, 34 тыбыш",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "30 тамга, 24 тыбыш",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "36тамга, 39 тыбыш",
+      "variantNumber": 8
+    },
+    {
+      "id": "v9-q1",
+      "number": 1,
+      "question": "Кыргыз тилинде канча үндүү тыбыш бар?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "12",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "14",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "8",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "6",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "14",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q2",
+      "number": 2,
+      "question": "«Манас» эпосундагы башкы каармандар:",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Манас, Каныкей, Бегимай, Кыз Сайкал, Жакып",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Манас, Бакай, Чубак, Кошой, Чыйырды",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Манас, Акбалта, Айчүрөк, Тулкубек, Сыргак",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Каныкей, Акылай, Жаныл Мырза, Серек",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "Манас, Бакай, Чубак, Кошой, Чыйырды",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q3",
+      "number": 3,
+      "question": "Эпостогу Манастын атынын аты?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Алгара",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Тайтору",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Ак кула",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Чабдар",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "Ак кула",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q4",
+      "number": 4,
+      "question": "Белгилүү манасчылардын атын ата.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Сагынбай, Саякбай, Жайсан, Балык",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "Карамолдо, Токтогул, Тоголок Молдо",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Төлөгөн, Касым, Гапар, Касымалы",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Мидин, Байдылда, Омор, Сабыр",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Сагынбай, Саякбай, Жайсан, Балык",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q5",
+      "number": 5,
+      "question": "«Манас» эпосун изилдөөчүлөр?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Ч. Валиханов, Радлов, К. Мифтаков",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "И. Арабаев, К.Тыныстанов, И. Раззаков",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Ж. Баласагын, М. Кашкари, Омар Хаям",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "М. Байжиев, М. Элебаев.",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "Ч. Валиханов, Радлов, К. Мифтаков",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q6",
+      "number": 6,
+      "question": "Белгиленген сөздүн синонимин тапкыла. – Бул текст силер үчүн оңой.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "жеңил",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "аз",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "кичинекей",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "маанилүү",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "жеңил",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q7",
+      "number": 7,
+      "question": "Кыргыз тилинде канча сөз түркүмү бар?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "тогуз",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "беш",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "он эки",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "алты",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "он эки",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q8",
+      "number": 8,
+      "question": "Кыргызстан качан өз алдынча эгемендүү мамлекет болуп жарыяланган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "1990 - жылы 31 – августа",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "1991 - жылы 31 – августа",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "1992 - жылы 31 – августа",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "1991 - жылы 5 – майда",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "1991 - жылы 31 – августа",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q9",
+      "number": 9,
+      "question": "Өзгөчө сөз түрүмдөрүн белгилегиле.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "зат атооч,сын аточ,сан атооч",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "тактооч, этиш, ат атооч",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "жандооч ,байламта, бөлүкчө",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "сырдык сөз, тууранды сөз",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "сырдык сөз, тууранды сөз",
+      "variantNumber": 9
+    },
+    {
+      "id": "v9-q10",
+      "number": 10,
+      "question": "Алфавит деген эмне?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "белгилүү бир тартип боюнча тамгалардын жыйындысы",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "белгилүү бир тартип боюнча тыбыштардын жыйындысы",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "тамга, тыбыштардын ирээти менен орун алышы",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "белгилердин жыйындысы",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "белгилүү бир тартип боюнча тамгалардын жыйындысы",
+      "variantNumber": 9
+    },
+    {
+      "id": "v10-q1",
+      "number": 1,
+      "question": "Кыргыз тилинде үндүү тыбыштар эринге карата кандай болуп бөлүнөт?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "кең, кууш",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "ачык,жабык",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "эринчил, эринсиз",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "кыска, созулма",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "эринчил, эринсиз",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q2",
+      "number": 2,
+      "question": "Жоон үндүүлөрдү тап.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "а, и, о, у",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "а, э, ү, о",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "о, э, ү, ы",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "а, о, ы, у",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "а, о, ы, у",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q3",
+      "number": 3,
+      "question": "Кыргыз Республикасынын желеги качан кабыл алынган?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "1991 -ж. 1 – ноябрь",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "1992 -ж. 3- июль",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "1992-ж. 3-март",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "1993- ж. 31-август",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "1992-ж. 3-март",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q4",
+      "number": 4,
+      "question": "Тилдеги тыбыштарды окутуучу илим кайсы?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "орфография",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "фонетика",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "лексика",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "синтаксис",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "фонетика",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q5",
+      "number": 5,
+      "question": "Кыргыз элинин алгачкы агартуучулары кимдер?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "Ж. Баласагын",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "М. Кашгари",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "И. Арабаев, К. Тыныстанов",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "А. Осмонов, Ч. Айтматов",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "И. Арабаев, К. Тыныстанов",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q6",
+      "number": 6,
+      "question": "Аңгеме, повесть стилдин кайсы түрүнө кирет?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "иш кагаздар стили",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "публицистикалык стиль",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "көркөм стиль",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "адабий стиль",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "г",
+      "correctOptionOriginal": "Г",
+      "correctAnswer": "адабий стиль",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q7",
+      "number": 7,
+      "question": "Туура жазууга үйрөтүүчү илим",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "морфология",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "фонетика",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "орфография",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "орфоэпия",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "в",
+      "correctOptionOriginal": "В",
+      "correctAnswer": "орфография",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q8",
+      "number": 8,
+      "question": "Кыргыз Республикасынын гербинин автору ким?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "А. Абдыраев, С. Дубанаев",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "К. Молдобасанов, Н. Давлесов",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "Ж. Садыков, Ш.Кулуев",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "Р. Абдыкадыров, А. Шаршенов",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "А. Абдыраев, С. Дубанаев",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q9",
+      "number": 9,
+      "question": "Белгиленген сөздүн антонимин тапкыла. Кечээ мен жаңы макала жаза баштадым.",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "бүтүрдүм",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "бышырдым",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "бардым",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "котордум",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "а",
+      "correctOptionOriginal": "А",
+      "correctAnswer": "бүтүрдүм",
+      "variantNumber": 10
+    },
+    {
+      "id": "v10-q10",
+      "number": 10,
+      "question": "Кыргыз адабий тилинде канча созулма үндүү бар?",
+      "options": [
+        {
+          "id": "а",
+          "label": "а",
+          "text": "8",
+          "originalLabel": "а"
+        },
+        {
+          "id": "б",
+          "label": "б",
+          "text": "6",
+          "originalLabel": "б"
+        },
+        {
+          "id": "в",
+          "label": "в",
+          "text": "4",
+          "originalLabel": "в"
+        },
+        {
+          "id": "г",
+          "label": "г",
+          "text": "7",
+          "originalLabel": "г"
+        }
+      ],
+      "correctOption": "б",
+      "correctOptionOriginal": "Б",
+      "correctAnswer": "6",
+      "variantNumber": 10
+    }
+  ],
+  "extractionWarnings": [
+    "Variant 6 question 10: option labels normalized from ['а', 'б', 'б', 'в'] to ['а', 'б', 'в', 'г']"
+  ]
+}
