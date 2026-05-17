@@ -3,9 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://dlya-colledga.github.io/gos-kg-test-2026-for-pvcs/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:gh": "tsc -b && vite build --base=/gos-kg-test-2026-for-pvcs/",
+    "gh-deploy": "pnpm build:gh && gh-pages -d dist",
+    "deploy": "pnpm gh-deploy",
     "lint": "eslint .",
     "preview": "vite preview"
   },
@@ -32,6 +36,7 @@
     "eslint": "^10.3.0",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.2",
+    "gh-pages": "^6.3.0",
     "globals": "^17.6.0",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.59.2",
